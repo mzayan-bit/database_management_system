@@ -1,1 +1,15 @@
--- Active: 1741729302609@@127.0.0.1@5432@mid_prep@public
+-- Create a simple table
+CREATE TABLE employees (
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(50),
+    age INT
+);
+
+-- Insert some dummy data
+INSERT INTO employees (name, age) VALUES 
+('Alice', 30),
+('Bob', 25),
+('Charlie', 25);
+
+-- Retrieve all data
+SELECT * FROM employees;
