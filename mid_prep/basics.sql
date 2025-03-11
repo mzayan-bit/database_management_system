@@ -9,7 +9,7 @@ CREATE TABLE employees (
 INSERT INTO employees (name, age) VALUES 
 ('Alice', 30),
 ('Bob', 25),
-('Charlie', 25);
+('Charlie', 30);
 
 -- Retrieve all data
 SELECT * FROM employees;
